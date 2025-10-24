@@ -7,6 +7,10 @@ public class DogwalkCompany
     {
     schedule = new int[24];
     }
+    public DogwalkCompany(int[] schedule)
+    {
+        this.schedule = schedule;
+    }
 
     public String toString()
     {
